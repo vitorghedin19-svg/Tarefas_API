@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tarefas_db
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
